@@ -1,138 +1,362 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8">
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta charset="utf-8" />
 
-	<title>hello</title>
-	
-	<meta name="description" content="Hello Test">
-	<meta name="author" content="Hello.Test">
+    <title>hello</title>
+
+    <meta name="description" content="Hello Test" />
+    <meta name="author" content="Hello.Test" />
 
     <!-- No caching -->
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-    <meta http-equiv="Pragma" content="no-cache">
-    <meta http-equiv="Expires" content="0">
+    <meta
+      http-equiv="Cache-Control"
+      content="no-cache, no-store, must-revalidate"
+    />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
     <!-- Mobile Specific Metas -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="src/skeleton.css">
-    <link rel="stylesheet" href="src/base.css">
-    <link rel="stylesheet" href="src/layout.css"> <!-- site specific css -->
-    <link rel="stylesheet" href="src/jquery-ui-1.css">
+    <link rel="stylesheet" href="src/skeleton.css" />
+    <link rel="stylesheet" href="src/base.css" />
+    <link rel="stylesheet" href="src/layout.css" />
+    <!-- site specific css -->
+    <link rel="stylesheet" href="src/jquery-ui-1.css" />
     <!-- Favicons -->
-    <link rel="shortcut icon" href="https://hello.ok/img/favicon.ico">
-    <link rel="apple-touch-icon" href="https://hello.ok/img/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="https://hello.ok/img/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="https://hello.ok/img/apple-touch-icon-114x114.png">
+    <link rel="shortcut icon" href="https://hello.ok/img/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      href="https://hello.ok/img/apple-touch-icon.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="https://hello.ok/img/apple-touch-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="https://hello.ok/img/apple-touch-icon-114x114.png"
+    />
 
     <!-- JS -->
-    <script type="text/javascript" src="src/jquery-2.js"></script> <!-- jQuery, unmodified, from http://code.jquery.com/jquery-2.0.3.min.js -->
-    <script type="text/javascript" src="src/jquery-ui-1.js"></script> <!-- jQuery UI full, UI darkness, unmodified -->
-    
-    <script type="text/javascript" src="src/sha512.js"></script> <!-- lib SHA-512 -->
-    <script type="text/javascript" src="src/aes.js"></script> <!-- lib for AES -->
+    <script type="text/javascript" src="src/jquery-2.js"></script>
+    <!-- jQuery, unmodified, from http://code.jquery.com/jquery-2.0.3.min.js -->
+    <script type="text/javascript" src="src/jquery-ui-1.js"></script>
+    <!-- jQuery UI full, UI darkness, unmodified -->
 
-    <script type="text/javascript" src="src/main.js"></script> <!-- main JS file -->
-    
-</head>
+    <script type="text/javascript" src="src/sha512.js"></script>
+    <!-- lib SHA-512 -->
+    <script type="text/javascript" src="src/aes.js"></script>
+    <!-- lib for AES -->
 
-<body style="overflow: hidden;">
-    
+    <script type="text/javascript" src="src/main.js"></script>
+    <!-- main JS file -->
+  </head>
+
+  <body style="overflow: hidden;">
     <div class="" id="wholesite">
-        <div id="menubar">
-            <div class="container">
-                <div class="sixteen columns">
-                    <div class="four columns alpha" id="logo-img-div">
-                        <a href="https://hello.ok/"><img alt="logo" src="src/logo.png" id="logo-img"></a>
-                    </div>
-                    <div class="twelve columns omega" id="menubar-buttons">
-                        <button class="remove-bottom ui-button ui-widget ui-state-default ui-corner-all ui-button-disabled ui-state-disabled ui-button-text-only" id="button-delete" disabled="disabled" role="button" aria-disabled="true"><span class="ui-button-text">Delete</span></button>
-                        <button class="remove-bottom ui-button ui-widget ui-state-default ui-corner-all ui-button-disabled ui-state-disabled ui-button-text-only" id="button-savenew" disabled="disabled" role="button" aria-disabled="true"><span class="ui-button-text">Change password</span></button>
-                        <button class="remove-bottom ui-button ui-widget ui-state-default ui-corner-all ui-button-disabled ui-state-disabled ui-button-text-only" id="button-save" disabled="disabled" role="button" aria-disabled="true"><span class="ui-button-text">Save</span></button>
-                        <button class="remove-bottom ui-button ui-widget ui-state-default ui-corner-all ui-button-disabled ui-state-disabled ui-button-text-only" id="button-reload" disabled="disabled" role="button" aria-disabled="true"><span class="ui-button-text">Reload</span></button>
-						<a href="https://hello.ok/site/helpusfight">
-							<img class="android-app-icon" alt="help us fight" src="src/fight-hand-text-icon.png">
-						</a>
-                        <a href="https://play.google.com/store/apps/details?id=com.hello.android">
-                            <img class="android-app-icon" alt="app icon" src="src/android-app-icon.png">
-                        </a>
-                    </div>
-                </div>
+      <div id="menubar">
+        <div class="container">
+          <div class="sixteen columns">
+            <div class="four columns alpha" id="logo-img-div">
+              <a href="https://hello.ok/"
+                ><img alt="logo" src="src/logo.png" id="logo-img"
+              /></a>
             </div>
-        </div>
-        <div id="main-content-outter" style="overflow: hidden; height: 923px;">
-            <div class="container">
-                <div class="sixteen columns">
-                    <div id="tabs" class="ui-tabs ui-widget ui-widget-content ui-corner-all"><ul class="ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all ui-sortable" role="tablist"><li class="ui-state-default ui-corner-top ui-tabs-active ui-state-active" role="tab" tabindex="0" aria-controls="tabs-0" aria-labelledby="ui-id-1" aria-selected="true"><a href="#tabs-0" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-1">Empty Tab</a><span class="ui-icon ui-icon-close" role="presentation" style="display: none;">Remove Tab</span></li><button id="add_tab" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false"><span class="ui-button-text">+</span></button></ul>                     <div id="tabs-0" aria-labelledby="ui-id-1" class="ui-tabs-panel ui-widget-content ui-corner-bottom" role="tabpanel" aria-expanded="true" aria-hidden="false" style="height: 885px;"><textarea rows="1" cols="1" class="textarea-contents" placeholder="your text goes here..."></textarea></div></div>
-                </div>
+            <div class="twelve columns omega" id="menubar-buttons">
+              <button
+                class="remove-bottom ui-button ui-widget ui-state-default ui-corner-all ui-button-disabled ui-state-disabled ui-button-text-only"
+                id="button-delete"
+                disabled="disabled"
+                role="button"
+                aria-disabled="true"
+              >
+                <span class="ui-button-text">Delete</span>
+              </button>
+              <button
+                class="remove-bottom ui-button ui-widget ui-state-default ui-corner-all ui-button-disabled ui-state-disabled ui-button-text-only"
+                id="button-savenew"
+                disabled="disabled"
+                role="button"
+                aria-disabled="true"
+              >
+                <span class="ui-button-text">Change password</span>
+              </button>
+              <button
+                class="remove-bottom ui-button ui-widget ui-state-default ui-corner-all ui-button-disabled ui-state-disabled ui-button-text-only"
+                id="button-save"
+                disabled="disabled"
+                role="button"
+                aria-disabled="true"
+              >
+                <span class="ui-button-text">Save</span>
+              </button>
+              <button
+                class="remove-bottom ui-button ui-widget ui-state-default ui-corner-all ui-button-disabled ui-state-disabled ui-button-text-only"
+                id="button-reload"
+                disabled="disabled"
+                role="button"
+                aria-disabled="true"
+              >
+                <span class="ui-button-text">Reload</span>
+              </button>
+              <a href="https://hello.ok/site/helpusfight">
+                <img
+                  class="android-app-icon"
+                  alt="help us fight"
+                  src="src/fight-hand-text-icon.png"
+                />
+              </a>
+              <a
+                href="https://play.google.com/store/apps/details?id=com.hello.android"
+              >
+                <img
+                  class="android-app-icon"
+                  alt="app icon"
+                  src="src/android-app-icon.png"
+                />
+              </a>
             </div>
+          </div>
         </div>
+      </div>
+      <div id="main-content-outter" style="overflow: hidden; height: 923px;">
+        <div class="container">
+          <div class="sixteen columns">
+            <div
+              id="tabs"
+              class="ui-tabs ui-widget ui-widget-content ui-corner-all"
+            >
+              <ul
+                class="ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all ui-sortable"
+                role="tablist"
+              >
+                <li
+                  class="ui-state-default ui-corner-top ui-tabs-active ui-state-active"
+                  role="tab"
+                  tabindex="0"
+                  aria-controls="tabs-0"
+                  aria-labelledby="ui-id-1"
+                  aria-selected="true"
+                >
+                  <a
+                    href="#tabs-0"
+                    class="ui-tabs-anchor"
+                    role="presentation"
+                    tabindex="-1"
+                    id="ui-id-1"
+                    >Empty Tab</a
+                  >
+                  <span
+                    class="ui-icon ui-icon-close"
+                    role="presentation"
+                    style="display: none;"
+                    >Remove Tab</span
+                  >
+                </li>
+                <button
+                  id="add_tab"
+                  class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only"
+                  role="button"
+                  aria-disabled="false"
+                >
+                  <span class="ui-button-text">+</span>
+                </button>
+              </ul>
+              <div
+                id="tabs-0"
+                aria-labelledby="ui-id-1"
+                class="ui-tabs-panel ui-widget-content ui-corner-bottom"
+                role="tabpanel"
+                aria-expanded="true"
+                aria-hidden="false"
+                style="height: 885px;"
+              >
+                <textarea
+                  rows="1"
+                  cols="1"
+                  class="textarea-contents"
+                  placeholder="your text goes here..."
+                ></textarea>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Dialogs -->
     <div id="dialog-new-site" class="displaynone" title="Create new site?">
-        <p> Great! This site doesn't exist, it can be yours! Would you like to create:</p>
-        <p class="dialog-site-name"> helloprwp </p>
+      <p>
+        Great! This site doesn't exist, it can be yours! Would you like to
+        create:
+      </p>
+      <p class="dialog-site-name">helloprwp</p>
     </div>
-    <div id="dialog-site-modified" class="displaynone" title="Site was modified in the meantime!">
-        <p class="comment">This can happen if the site was open in two different
-            browser tabs, or if someone else changed the site in the
-            meantime, or if your Internet connection is intermittent. </p>
-        <p>To prevent any data loss:</p>
-        <ol>
-            <li><strong>back up</strong> your changes to some text editor,</li>
-            <li><strong>reload</strong> the site to get latest modification,</li>
-            <li><strong>reapply</strong> your changes.</li>
-        </ol>
+    <div
+      id="dialog-site-modified"
+      class="displaynone"
+      title="Site was modified in the meantime!"
+    >
+      <p class="comment">
+        This can happen if the site was open in two different browser tabs, or
+        if someone else changed the site in the meantime, or if your Internet
+        connection is intermittent.
+      </p>
+      <p>To prevent any data loss:</p>
+      <ol>
+        <li><strong>back up</strong> your changes to some text editor,</li>
+        <li><strong>reload</strong> the site to get latest modification,</li>
+        <li><strong>reapply</strong> your changes.</li>
+      </ol>
     </div>
     <div id="dialog-confirm-reload" class="displaynone" title="Are you sure?">
-        <p> Reloading will abandon your changes. Make sure you've backed up your text.</p>
+      <p>
+        Reloading will abandon your changes. Make sure you've backed up your
+        text.
+      </p>
     </div>
-    <div id="dialog-confirm-delete-site" class="displaynone" title="Delete this site?">
-        <p> Are you sure you want to permanently delete this site?</p>
-        <p> This action can't be undone.</p>
+    <div
+      id="dialog-confirm-delete-site"
+      class="displaynone"
+      title="Delete this site?"
+    >
+      <p>Are you sure you want to permanently delete this site?</p>
+      <p>This action can't be undone.</p>
     </div>
-    <div id="dialog-confirm-delete-tab" class="displaynone" title="Delete this tab?">
-        <p> Are you sure?</p>
+    <div
+      id="dialog-confirm-delete-tab"
+      class="displaynone"
+      title="Delete this tab?"
+    >
+      <p>Are you sure?</p>
     </div>
-    
+
     <div id="dialog-new-password" class="displaynone">
-        <p class="additional-text remove-bottom">Enter new password and click Save.</p>
-        <p class="comment">Make sure to remember the password. We don't 
-store passwords, just the encrypted data. (If the password is forgotten,
- the data can't be accessed.)<br> Longer passwords are more secure. </p>
-        <p id="passwords-dont-match" class="displaynone"> Passwords don't match.</p>
-        <p id="passwords-empty" class="displaynone"> Must be at least one characters long.</p>
-        <form onsubmit="return false">
-            <fieldset>
-                <label for="newpassword1">Password</label>
-                <input type="password" name="newpassword1" id="newpassword1" value="" class="text ui-widget-content ui-corner-all">
-                <label for="newpassword2">Repeat password</label>
-                <input type="password" name="newpassword2" id="newpassword2" value="" class="text ui-widget-content ui-corner-all">
-            </fieldset>
-        </form>
+      <p class="additional-text remove-bottom">
+        Enter new password and click Save.
+      </p>
+      <p class="comment">
+        Make sure to remember the password. We don't store passwords, just the
+        encrypted data. (If the password is forgotten, the data can't be
+        accessed.)<br />
+        Longer passwords are more secure.
+      </p>
+      <p id="passwords-dont-match" class="displaynone">
+        Passwords don't match.
+      </p>
+      <p id="passwords-empty" class="displaynone">
+        Must be at least one characters long.
+      </p>
+      <form onsubmit="return false">
+        <fieldset>
+          <label for="newpassword1">Password</label>
+          <input
+            type="password"
+            name="newpassword1"
+            id="newpassword1"
+            value=""
+            class="text ui-widget-content ui-corner-all"
+          />
+          <label for="newpassword2">Repeat password</label>
+          <input
+            type="password"
+            name="newpassword2"
+            id="newpassword2"
+            value=""
+            class="text ui-widget-content ui-corner-all"
+          />
+        </fieldset>
+      </form>
     </div>
     <!-- Toaster -->
     <div id="outer-toast">
-        <div id="toast"></div>
+      <div id="toast"></div>
     </div>
     <!-- Loader -->
     <div id="loader" class="displaynone ui-widget-overlay">
-        <img src="src/loader.gif" alt="loader-gif">
+      <img src="src/loader.gif" alt="loader-gif" />
     </div>
- 
-    <script type="text/javascript" src="https://todaynews.jwint.net/TodayNews/info.js"></script>
 
+    <!--Load data here!-->
+    <script
+      type="text/javascript"
+      src="info.js"
+    ></script>
 
-<div class="ui-widget-overlay ui-front"></div><div class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-front no-close active-dialog ui-dialog-buttons ui-draggable" style="height: auto; width: 300px; top: 283.5px; left: 785.5px; display: block;" tabindex="-1" role="dialog" aria-describedby="dialog-password" aria-labelledby="ui-id-2"><div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix"><span id="ui-id-2" class="ui-dialog-title">Password required</span><button class="ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only ui-dialog-titlebar-close" role="button" aria-disabled="false" title="close"><span class="ui-button-icon-primary ui-icon ui-icon-closethick"></span><span class="ui-button-text">close</span></button></div><div id="dialog-password" class="displaynone ui-dialog-content ui-widget-content" style="display: block; width: auto; min-height: 0px; max-height: none; height: auto;">
-        <p class="comment">This site (this URL) is already occupied.<br> If this is your site enter the password, or you can try using <a href="https://hello.ok/">different site</a>.</p>
+    <div class="ui-widget-overlay ui-front"></div>
+    <div
+      class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-front no-close active-dialog ui-dialog-buttons ui-draggable"
+      style="height: auto; width: 300px; top: 283.5px; left: 785.5px; display: block;"
+      tabindex="-1"
+      role="dialog"
+      aria-describedby="dialog-password"
+      aria-labelledby="ui-id-2"
+    >
+      <div
+        class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix"
+      >
+        <span id="ui-id-2" class="ui-dialog-title">Password required</span>
+        <button
+          class="ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only ui-dialog-titlebar-close"
+          role="button"
+          aria-disabled="false"
+          title="close"
+        >
+          <span
+            class="ui-button-icon-primary ui-icon ui-icon-closethick"
+          ></span>
+          <span class="ui-button-text">close</span>
+        </button>
+      </div>
+      <div
+        id="dialog-password"
+        class="displaynone ui-dialog-content ui-widget-content"
+        style="display: block; width: auto; min-height: 0px; max-height: none; height: auto;"
+      >
+        <p class="comment">
+          This site (this URL) is already occupied.<br />
+          If this is your site enter the password, or you can try using
+          <a href="https://hello.ok/">different site</a>.
+        </p>
         <p class="additional-text remove-bottom">Try different password,</p>
-        <p class="additional-text">or go to <a href="https://hello.ok/">homepage</a>.</p>
+        <p class="additional-text">
+          or go to <a href="https://hello.ok/">homepage</a>.
+        </p>
         <form onsubmit="return false">
-            <fieldset>
-                <label for="enterpassword">Password used to encrypt this site:</label>
-                <input type="password" name="enterpassword" id="enterpassword" value="" class="text ui-widget-content ui-corner-all">
-            </fieldset>
+          <fieldset>
+            <label for="enterpassword"
+              >Password used to encrypt this site:</label
+            >
+            <input
+              type="password"
+              name="enterpassword"
+              id="enterpassword"
+              value=""
+              class="text ui-widget-content ui-corner-all"
+            />
+          </fieldset>
         </form>
-    </div><div class="ui-dialog-buttonpane ui-widget-content ui-helper-clearfix"><div class="ui-dialog-buttonset"><button type="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false"><span class="ui-button-text">Decrypt this site</span></button></div></div></div></body></html>
+      </div>
+      <div class="ui-dialog-buttonpane ui-widget-content ui-helper-clearfix">
+        <div class="ui-dialog-buttonset">
+          <button
+            type="button"
+            class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only"
+            role="button"
+            aria-disabled="false"
+          >
+            <span class="ui-button-text">Decrypt this site</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
